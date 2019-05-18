@@ -316,20 +316,19 @@ $('body').append """
 	<pre id="style-text"></pre>
   <div style = 'position: fixed;left: 30px;bottom: 10px;'>
     <a id='skipAnimation'>跳过动画</a>
-    <a style='color: #fff' href='http://love.idealclover.top'>重新播放</a>
+    <a style='color: #fff' href='https://phelps-fpl.github.io/520.io/'>重新播放</a>
     <a style='color: #fff' target="_blank" href='https://github.com/idealclover/Love-Gift'>项目地址</a>
-    <a style='color: #fff' target="_blank" href='https://www.idealclover.top/'>我的博客</a>
   </div>
 """
 
 
-#  <a href='https://www.idealclover.top'>idealclover</a>
+#  <a href='https://phelps-fpl.github.io/520.io/'>idealclover</a>
 
 
 # faster typing in small iframe on codepen homepage
 # time = if window.innerWidth <= 578 then 4 else 16
-commentTime = 60
-codeTime = 20
+commentTime = .1
+codeTime = .1
 
 $(document).on 'ready page:load', ->
   $('#skipAnimation').click ->
